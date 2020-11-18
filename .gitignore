@@ -1,0 +1,14 @@
+.vs
+Library
+Logs
+obj
+Packages
+Temp
+Assembly-CSharp.csproj
+Assembly-CSharp-Editor.csproj
+LightConnect.csproj
+LightConnect.Editor.csproj
+LightConnect.sln
+LightingConncet.csproj
+LightingConncet.sln
+LightingConnect.userprefs
