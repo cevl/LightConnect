@@ -5,10 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour {
 
-    public void ChangeScene(string scene)
+    public void ChangeScene(int sceneIndex)
+//string scene is the index of the scene that we want to load.
     {
         print("Changing Scene");
-        SceneManager.LoadScene(scene);
+        SceneManager.LoadScene(sceneIndex);
         ResetStaticValues();
     }
 
@@ -51,8 +52,9 @@ public class SceneChanger : MonoBehaviour {
     public void MenuScene()
     {
         print("Going to the menu Scene.");
-        int sceneIndex = SceneManager.GetSceneByName("Menu").buildIndex;
-        SceneManager.LoadScene(sceneIndex);
+        int sceneIndex = SceneManager.GetSceneByName("Menu2").buildIndex;
+        //SceneManager.LoadScene(sceneIndex);
+        SceneManager.LoadScene(0);
         ResetStaticValues();
     }
 
